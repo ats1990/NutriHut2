@@ -62,10 +62,10 @@ export function PlantSave(){
 
             navigation.navigate('Confirmation', {
                 title: 'Tudo certo',
-                subtitle: 'Fique tranquilo que sempre vamos lembrar você de cuidar da sua plantinha com muito cuidado.',
+                subtitle: 'Fique tranquilo que sempre vamos lembrar você de cuidar da sua Nutrição.',
                 buttonTitle: 'Muito Obrigado :D',
                 icon: 'hug',
-                nextScreen: 'MyPlants',
+                nextScreen: 'Minha Nutrição',
             }); 
 
         } catch {
@@ -133,7 +133,7 @@ export function PlantSave(){
 
 
                     <Button 
-                        title="Cadastrar planta"
+                        title="Cadastrar Lembrete"
                         onPress={handleSave}
                     />
                 </View>

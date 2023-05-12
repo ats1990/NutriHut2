@@ -58,7 +58,7 @@ export function MyPlants() {
             );
 
             setNextWatered(
-                `Não esqueça de regar a ${plantsStoraged[0].name} à ${nextTime} horas.`
+                `Proxima dica sobre ${plantsStoraged[0].name} à ${nextTime} horas.`
             ) 
             
             setMyPlants(plantsStoraged);
@@ -88,7 +88,7 @@ export function MyPlants() {
 
             <View style={styles.plants}>
                 <Text style={styles.plantsTitle}>
-                    Próximas regadas
+                    Próximas dicas
                 </Text>
 
                 <FlatList 

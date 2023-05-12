@@ -112,10 +112,10 @@ export function PlantSelect(){
                 <Header />
 
                 <Text style={styles.title}>
-                    Em qual ambiente
+                Em que seção 
                 </Text>
                 <Text style={styles.subtitle}>
-                    você quer colocar sua planta?
+                você deseja começar a navegar?
                 </Text>
             </View>
 

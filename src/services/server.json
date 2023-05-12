@@ -5,32 +5,37 @@
   ],
 
   "plants_environments": [
-    {"key": "living_room", "title": "Sala"},
-    {"key": "bedroom", "title": "Quarto"},
-    {"key": "kitchen", "title": "Cozinha"},
-    {"key": "bathroom", "title": "Banheiro"}
+    {"key": "drinks", "title": "Bebidas"},
+    {"key": "fruits", "title": "Frutas"},
+    {"key": "vegetables","title": "Verduras"},
+    {"key": "meat", "title": "Carnes"},
+    {"key": "grains", "title": "Grãos"},
+    {"key": "pastas", "title": "Massas"},
+    {"key": "candy", "title": "Doces"},
+    {"key": "savory", "title": "Salgados"}
+
   ],
 
   "plants": [
     {
       "id": 1,
-      "name": "Aningapara",
-      "about": "É uma espécie tropical que tem crescimento rápido e fácil manuseio.",
-      "water_tips": "Mantenha a terra sempre húmida sem encharcar. Regue 2 vezes na semana.",
-      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/1.svg",
-      "environments": ["living_room", "kitchen"],
+      "name": "Água de Coco",
+      "about": "A água é uma bebida essencial para a saúde do corpo humano, pois ajuda a manter o organismo hidratado.",
+      "water_tips": "Calorias: 19, Carboidratos: 4g, Proteínas: 0g, Gorduras: 0g, Sódio: 25mg.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/nutrihut-43ce6.appspot.com/o/coco.svg?alt=media&token=f4286a1d-7216-4241-9f7e-9b3980572c8b",
+      "environments": ["drinks"],
       "frequency": {
         "times": 2,
-        "repeat_every": "week"
+        "repeat_every": "day"
       }
     },
     {
       "id": 2,
-      "name": "Zamioculca",
-      "about": "Apesar de florescer na primavera, fica o ano todo bonita e verdinha. ",
-      "water_tips": "Utilize vasos com furos e pedras no fundo para facilitar a drenagem. Regue 1 vez no dia.",
-      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/2.svg",
-      "environments": ["living_room", "bedroom"],
+      "name": "Sucos",
+      "about": "Os sucos naturais são uma excelente opção para quem busca uma alimentação saudável.",
+      "water_tips": "Calorias: 92, Carboidratos: 22g, Proteínas: 1g, Gorduras: 0g, Fibras: 0g.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/nutrihut-43ce6.appspot.com/o/orange_juice_drink_glass_fruit_icon_207999.svg?alt=media&token=836a43b8-2c7c-40e4-97e6-474da0aa5da3",
+      "environments": ["drinks"],
       "frequency": {
         "times": 1,
         "repeat_every": "day"
@@ -38,47 +43,47 @@
     },
     {
       "id": 3,
-      "name": "Peperomia",
-      "about": "Adapta-se tanto ao sol e sombra, mas prefere ficar num cantinho fresco, sem sol direto. ",
-      "water_tips": "Nos dias mais quentes borrife água nas folhas. Regue 3 vezes na semana.",
-      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/3.svg",
-      "environments": ["bedroom"],
+      "name": "Banana",
+      "about": "A banana é uma fruta rica para quem pratica atividades físicas.",
+      "water_tips": "Uma unidade média de banana contém 87 calorias, 23g de carboidratos, 1g de proteínas, 0g de gorduras e 2g de fibras.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/nutrihut-43ce6.appspot.com/o/banana-svgrepo-com.svg?alt=media&token=01eaee5c-f229-4747-b656-6dbd79fa2979",
+      "environments": ["fruits"],
       "frequency": {
         "times": 3,
-        "repeat_every": "week"
-      }
-    },
-    {
-      "id": 4,
-      "name": "Imbé",
-      "about": "De médio porte que se adapta a diversas regiões, além de ser bem fácil de cultivar. Conquista cada vez mais pessoas.",
-      "water_tips": "Mantenha a terra sempre húmida sem encharcar. Regue 2 vezes na semana.",
-      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/4.svg",
-      "environments": ["bedroom", "living_room"],
-      "frequency": {
-        "times": 2,
-        "repeat_every": "week"
-      }
-    },
-    {
-      "id": 5,
-      "name": "Espada São Jorge",
-      "about": "O aroma reduz os níveis de ansiedade e seu cheiro ajudar na qualidade do sono e a produtividade durante o dia.",
-      "water_tips": "Regue o solo ao redor. Regue 1 vez no dia.",
-      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/5.svg",
-      "environments": ["bedroom", "living_room"],
-      "frequency": {
-        "times": 1,
         "repeat_every": "day"
       }
     },
     {
+      "id": 4,
+      "name": "Espinafre",
+      "about": "O espinafre é uma verdura de folhas verdes escuras e é fonte de vitaminas A e C, além de ser rico em ferro e cálcio.",
+      "water_tips": "7g calorias, 1g de carboidratos, 1g de proteínas, 0g de gorduras e 1g de fibras.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/nutrihut-43ce6.appspot.com/o/spinach_vegetables_vegetable_food_agriculture_icon_220794.svg?alt=media&token=38be82c1-e174-4ce8-b0cd-d6a338457b76",
+      "environments": ["vegetables"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Frango Grelhado",
+      "about": "Ótima fonte de proteínas magras.",
+      "water_tips": "165 calorias, 0g de carboidratos, 31g de proteínas, 4g de gorduras e 64mg de sódio.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/nutrihut-43ce6.appspot.com/o/chicken_icon-icons.com_60702.svg?alt=media&token=7cec074b-1301-4efb-9d36-e9dd026f529a",
+      "environments": ["meat"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "week"
+      }
+    },
+    {
       "id": 6,
-      "name": "Yucca",
-      "about": "São indicadas pois são fáceis de manter e cuidar. Você colocar em pequenos vasos, ou até mesmo em xícaras.",
-      "water_tips": "Graças à reserva de água dessas verdinhas, é sempre melhor regar pouco. Regue 1 vez na semana.",
-      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/6.svg",
-      "environments": ["kitchen", "bedroom"],
+      "name": "Feijão",
+      "about": " O feijão preto é um grão rico em proteínas, fibras e carboidratos complexos.",
+      "water_tips": "77 calorias, 14g de carboidratos, 5g de proteínas, 0g de gorduras e 5g de fibras.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/nutrihut-43ce6.appspot.com/o/coffee-bean_icon-icons.com_61176.svg?alt=media&token=e2478987-e56d-4552-8eb6-792dda66cc6d",
+      "environments": ["grains"],
       "frequency": {
         "times": 1,
         "repeat_every": "week"
@@ -86,11 +91,11 @@
     },
     {
       "id": 7,
-      "name": "Frutíferas",
-      "about": "Exigem algumas horinhas de sol por dia, por isso deixe próximo a janelas.",
-      "water_tips": "Regue sempre na terra e não as folhas. Regue 3 vezes na semana",
-      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/7.svg",
-      "environments": ["kitchen", "living_room"],
+      "name": "Macarrão",
+      "about": "É rico em fibras e carboidratos complexos, além de conter uma série de vitaminas e minerais importantes.",
+      "water_tips": "124 calorias, 25g de carboidratos, 4g de proteínas, 1g de gorduras e 4g de fibras.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/nutrihut-43ce6.appspot.com/o/noodles_food_icon_146856.svg?alt=media&token=9f5e3d80-1aee-46b8-8b6a-b6c732169625",
+      "environments": ["pastas"],
       "frequency": {
         "times": 3,
         "repeat_every": "week"
@@ -98,11 +103,11 @@
     },
     {
       "id": 8,
-      "name": "Orquídea",
-      "about": "Traz sensação de tranquilidade e paz ao ambiente. Requer pouca manutenção e ótima para quem tem pouco espaço.",
-      "water_tips": "Regue moderadamente. Reque 4 vezes na semana.",
-      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/8.svg",
-      "environments": ["bathroom"],
+      "name": "Chocolate Amargo",
+      "about": "Contém menos açúcar e mais cacau, que é rico em antioxidantes.",
+      "water_tips": "30g de chocolate meio amargo contêm 166 calorias, 12g de carboidratos, 2g de proteínas, 12g de gorduras e 3g de fibras.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/nutrihut-43ce6.appspot.com/o/chocolate_bar_cocoa_icon_153933.svg?alt=media&token=5ea74241-83d5-47f5-aa2b-6f63d5f4b9df",
+      "environments": ["candy"],
       "frequency": {
         "times": 4,
         "repeat_every": "week"
@@ -110,11 +115,11 @@
     },
     {
       "id": 9,
-      "name": "Violeta",
-      "about": "Com flores delicadas. Elas são ótimas sugestões para decorar o banheiro. ",
-      "water_tips": "Nada de molhar as flores e folhas. Regue o solo 2 vezes na semana.",
-      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/3.svg",
-      "environments": ["bathroom"],
+      "name": "Chá preto",
+      "about": " Feita a partir das folhas da planta Camellia sinensis, assim como o chá verde e o chá branco.",
+      "water_tips": "100ml de chá preto sem açúcar contém cerca de 1 kcal, 0,1g de carboidratos, 0,1g de proteínas, 0g de gorduras e 0mg de sódio.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/nutrihut-43ce6.appspot.com/o/tea_cup_hot_drink_drinks_icon_210187.svg?alt=media&token=516329c0-ea50-439e-8360-a9636b28b308",
+      "environments": ["drinks"],
       "frequency": {
         "times": 2,
         "repeat_every": "week"
@@ -122,14 +127,14 @@
     },
     {
       "id": 10,
-      "name": "Hortênsia",
-      "about": "A hortênsia é uma planta rústica e se adapta a diferentes tipos de solos.",
-      "water_tips": "Mantenha a terra sempre húmida sem encharcar. Regue 1 vez no dia.",
-      "photo": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-plantmanager/2.svg",
-      "environments": ["bathroom"],
+      "name": "Castanhas",
+      "about": "É uma excelente fonte de gorduras saudáveis.",
+      "water_tips": "Ela também é rica em proteínas, com 3g por porção, além de ser uma boa fonte de magnésio e vitamina K.",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/nutrihut-43ce6.appspot.com/o/535chestnut_100849.svg?alt=media&token=d6062114-2345-4731-9858-598c3a81a669",
+      "environments": ["savory"],
       "frequency": {
         "times": 1,
-        "repeat_every": "day"
+        "repeat_every": "week"
       }
     }
   ]

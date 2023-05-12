@@ -55,7 +55,7 @@ export const PlantCardSecondary = ({ data, handleRemove, ...rest} : PlantProps) 
                 </Text>
                 <View style={styles.details}>
                     <Text style={styles.timeLabel}>
-                        Regar às
+                        Lembrar as
                     </Text>
                     <Text style={styles.time}>
                         {data.hour}
